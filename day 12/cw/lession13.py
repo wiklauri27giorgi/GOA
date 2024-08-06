@@ -1,0 +1,10 @@
+num=1
+num2=7
+num3=10
+num4=15
+print(num<num2)
+print(num>num2)
+print(num2<num3)
+print(num2>num3)
+print(num3<num4)
+print(num3>num4)
