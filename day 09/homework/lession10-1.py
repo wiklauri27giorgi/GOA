@@ -1,0 +1,6 @@
+name= ("giorgi")
+age=(11)
+height=(1.60)
+print(type(name))
+print(type(age))
+print(type(height))
