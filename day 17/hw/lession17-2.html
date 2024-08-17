@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Active Directory Scan</title>
+</head>
+<body>
+    <h1>Active Directory Scan</h1>
+    <form>
+        <label for="scan_for">Scan for:</label>
+        <select id="scan_for" name="scan_for">
+            <option value="active_directory">Active Directory</option><br>
+        </select>
+
+        <label for="domain_name">Fully-qualified domain name:</label>
+        <input type="text" id="domain_name" name="domain_name" value="AD.lab.company.com"><br>
+
+        <label for="organizational_unit">Organizational Unit:</label>
+        <input type="text" id="organizational_unit" name="organizational_unit" value="Lab/Engineering/Company"><br>
+
+        <label for="domain_controller">Domain controller:</label>
+        <input type="text" id="domain_controller" name="domain_controller" value="myDomainController"><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="Administrator"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <input type="submit" value="Add to Scan">
+        <input type="submit" value="Exclude from Scan"><br>
+    </form>
+</body>
+</html>
