@@ -1,4 +1,4 @@
 counter=20
 while counter>1:
-   print(counter)
+ print(counter)
 counter=counter-1
