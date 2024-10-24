@@ -1,0 +1,17 @@
+h1{font-size: 60px;
+    text-align: center;
+}
+h2{font-size: 60px;
+    text-align: center;
+}
+body{
+    
+    background-image: url('https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/452113171_476523915130909_6975325151100170335_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=54twyalxkqUQ7kNvgEcSrFf&_nc_zt=23&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=AjCnVefoSLMvis0iq92GqzG&oh=00_AYApcmglmegZyO_dbRvRs338lzCjMwJQ75A9pYwjFTgI8A&oe=67203522');
+    background-size: cover;
+}
+p{
+    font-size: 50px ;
+}
+li{
+    font-size: 50px ;
+}
