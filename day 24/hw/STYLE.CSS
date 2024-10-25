@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; /* ვერტიკალური განლაგება */
+    align-items: center; /* ცენტრში გაწვდვა */
+}
+
+.image-container {
+    margin: 10px; /* მარგინი */
+    padding: 10px; /* Padding */
+    border: 5px solid transparent; /* დაწყებითი ჩარჩო */
+    border-radius: 10px; /* მომრგვალებული კუთხეები */
+}
+
+.image-container img {
+    border-radius: 10px; /* სურათების მომრგვალებული კუთხეები */
+    width: 100%; /* სურათის სიგანე */
+    max-width: 300px; /* მაქსიმალური სიგანე */
+}
+
+/* სხვადასხვა ფერები ჩარჩოსთვის */
+.red {
+    border-color: red;
+}
+
+.green {
+    border-color: green;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.yellow {
+    border-color: yellow;
+}
