@@ -1,0 +1,10 @@
+.box {
+    width: 400px;
+    height: 400px;  
+    background-color: #ADD8E6;  
+    border-radius: 10px;
+    border-top: 4px solid red; 
+    border-right: 4px solid green;  
+    border-bottom: 4px solid blue;  
+    border-left: 4px solid yellow;  
+}
