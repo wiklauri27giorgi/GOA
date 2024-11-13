@@ -1,0 +1,31 @@
+/* საერთო სტილები */
+ul.names {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.names li {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* :nth-child() -ის გამოყენებით განსხვავებული ფერები */
+ul.names li:nth-child(1) {
+    color: red;
+}
+
+ul.names li:nth-child(2) {
+    color: blue;
+}
+
+ul.names li:nth-child(3) {
+    color: green;
+}
+
+ul.names li:nth-child(4) {
+    color: purple;
+}
+
+ul.names li:nth-child(5) {
+    color: orange;
+}
