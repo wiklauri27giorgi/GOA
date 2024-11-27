@@ -1,0 +1,9 @@
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+p:hover {
+    background-color: gray;
+    font-size: 25px;
+}

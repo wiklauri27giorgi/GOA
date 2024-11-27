@@ -1,0 +1,10 @@
+.box {
+    width: 150px;
+    padding: 25px;
+    background-image: url('image.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px; 
+    color: white; 
+    text-align: center
+}
