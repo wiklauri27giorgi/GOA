@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body>
+    <form>
+        <label for="scan_for">Scan for:</label>
+        <select id="scan_for" name="scan_for">
+            <option value="active_directory">Active Directory</option><br>
+        </select>
+
+        <label for="domain_name">Fully-qualified domain name:</label>
+        <input type="text" id="domain_name" name="domain_name" value="AD.lab.company.com"><br>
+
+        <label for="organizational_unit">Organizational Unit:</label>
+        <input type="text" id="organizational_unit" name="organizational_unit"><br>
+
+        <label for="domain_controller">Domain controller:</label>
+        <input type="text" id="domain_controller" name="domain_controller"  ><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"  ><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <input type="submit" value="Add to Scan">
+        <input type="submit" value="Exclude from Scan"><br>
+    </form>
+</body>
+</html>
