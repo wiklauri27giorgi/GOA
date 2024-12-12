@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    width: 430px;
+    margin: 20px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+img {
+    width: 400px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+.top-text {
+    margin-top: 5px;
+    line-height: 14px;
+    text-align: start;
+
+}
+
+.preps {
+    border-radius: 10px;
+    background-color: hsla(333, 48%, 82%, 0.419);
+}
+
+strong {
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-heading h2 {
+    margin: 5px 0 0 10px;
+    font-size: 19px;
+    color: hsl(14, 45%, 36%);
+}
+
+.prep-list {
+    padding: 3px;
+    margin-left: 20px;
+}
+
+
+.ingred-list {
+    margin: 5px 0 0 20px;
+    line-height: 18px;
+}
+
+.instructs {
+    padding: 4px;
+}
+
+.instruct-head {
+    margin-bottom: 2px;
+}
+
+.instruct-list {
+    margin-left: 20px;
+}
+
+.instruct-list li {
+    font-size: 14.5px;
+}
+
+
+.nutrient-data {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+}
+
+.subdata-a {
+    width: 50%;
+    color: hsl(332, 51%, 32%);
+}
+
+.subdata-b {
+    width: 50%;
+    color: hsl(332, 51%, 32%);
+
+}
